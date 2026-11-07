@@ -1,45 +1,42 @@
-# 🚲 Power BI Portfolio | Casos Práticos - Artefact
+# 📊 Portfólio de Power BI | Alex Derik
 
-Repositório dedicado aos casos práticos de Business Intelligence e Análise de Dados desenvolvidos com base nos desafios de negócio da **Artefact**. O objetivo principal é transformar bases de dados brutas em relatórios executivos dinâmicos, intuitivos e de alto impacto para tomada de decisão (*C-Level*).
+Bem-vindo ao meu repositório de portfólio dedicado a soluções de Business Intelligence, modelação de dados e visualização analítica em Power BI. 
 
----
-
-## 📊 Projetos Desenvolvidos
-
-### 1. Sales & Profit Dashboard (Caso de Vendas)
-Painel executivo focado na avaliação de performance comercial global, margens de lucro e segmentação de mercado para uma empresa de comércio de bicicletas.
-
-* **Dimensão do Painel:** 1280x720 (resolução otimizada para apresentações executivas).
-* **Identidade Visual (Paleta Oposta / Dark Mode):**
-  * **Fundo Geral:** Preto carvão profundo (`#121212`).
-  * **Containers/Visuais:** Antracite refinado (`#1E1E1E`).
-  * **Tipografia e Eixos:** Branco puro (`#FFFFFF`) para máxima legibilidade.
-  * **Cor de Destaque:** Laranja/Coral vibrante (`#FF7A00`) nas linhas e barras principais.
-* **Estrutura do Layout:**
-  * **Cabeçalho Superior:** Título centralizado com fundo em bloco sólido.
-  * **Gráfico Temporal (Topo):** Linha de evolução temporal de vendas/lucro.
-  * **Gráficos Inferiores (Lado a Lado):** Análise comparativa por **País** (*Country*) e por **Segmento** (*Segment: Government, Small Business, Enterprise, etc.*).
-  * **Rótulos de Dados:** Ativados em todos os visuais para leitura rápida sem necessidade de interação excessiva.
+Aqui encontras projetos desenvolvidos nas áreas de **Manufatura** e **Vendas**, focados em apoiar a tomada de decisão logística e comercial através de relatórios interativos e dinâmicos (com recurso a *Dark Mode* e paletas visuais otimizadas).
 
 ---
 
-### 2. Manufacturing & Costs Dashboard (Caso de Produção)
-Painel operacional voltado para o controlo de custos industriais, eficiência de processos e despesas de fabrico.
-* *Desenvolvido com foco na ótica de custos e otimização de recursos logísticos e industriais.*
+## 🚀 Projetos em Destaque
+
+### 1. Desempenho de Manufatura
+* **Descrição:** Dashboard focado no acompanhamento de indicadores operacionais de fábrica, eficiência de linhas e controlo de produção.
+* **Ficheiro do Relatório:** [Ver ficheiro na pasta Reports](reports/)
+* **Pré-visualização:**
+  
+![Desempenho de Manufatura](screenshots/01-desempenho-manufatura.png)
 
 ---
 
-## 🛠️ Engenharia de Dados & Tratamento (ETL no Power Query)
-Antes da modelagem visual, as bases de dados brutas passaram por um rigoroso processo de limpeza e tratamento no **Power Query**:
-* **Padronização de Categoria:** Uniformização de termos inconsistentes (ex: correção de *Smal Business* para *Small Business*, *Enter&rise* para *Enterprise* e *FrancE* para *France*).
-* **Limpeza Estrutural:** Remoção de colunas redundantes ou vazias (como a coluna *Product_Name*) para otimizar a performance do modelo relacional.
-* **Tipagem de Dados:** Garantia de que colunas numéricas, datas e chaves categóricas estavam configuradas com os tipos corretos para cálculos DAX precisos.
+### 2. Análise de Vendas e Desempenho Comercial
+* **Descrição:** Relatório analítico de vendas com foco em acompanhamento de metas, margens e comportamento comercial.
+* **Ficheiro do Relatório:** [Ver ficheiro na pasta Reports](reports/)
+* **Pré-visualização:**
+  
+![Análise de Vendas](screenshots/Base%20de%20dados%20Sales%204.png)
 
 ---
 
-## 📁 Estrutura do Repositório
-```text
-├── datasets/            # Ficheiros de dados limpos e preparados (.xlsx / .csv)
-├── reports/             # Ficheiros finais do Power BI (.pbix)
-├── screenshots/         # Capturas de ecrã em alta resolução dos dashboards
-└── README.md            # Documentação detalhada do projeto
+## 📁 Conjuntos de Dados (Datasets)
+Os dados brutos e tratados utilizados como base para a construção destes relatórios estão organizados e disponíveis no repositório:
+* **Aceder à pasta de dados:** [Ver pasta Datasets](datasets/)
+* *Nota:* Os ficheiros de suporte servem para alimentar a modelação em estrela e as tabelas dimensionais dos relatórios em Power BI.
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+* **Power BI Desktop:** Modelação de dados, DAX avançado, Power Query e construção de dashboards.
+* **GitHub:** Controlo de versão e estruturação de portfólio técnico.
+* **SQL & Python:** Utilizados no suporte académico e tratamento de fontes de dados na faculdade de Engenharia de Software.
+
+---
+📫 **Contacto:** Podes entrar em contacto comigo através do meu perfil do GitHub para trocar ideias sobre projetos de dados e logística!
