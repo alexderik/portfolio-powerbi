@@ -8,7 +8,6 @@ Projetos de análise de dados e visualização em Power BI, com limpeza no Power
 | [Executive Sales Dashboard 2013-2014](02-executive-sales/) | Visão executiva de vendas para reunião C-Level: vendas, lucro, unidades e margem. |
 | [Manufacturing & Costs Dashboard](03-manufacturing-costs/) | Análise de custo (COGS) por ano, país e segmento. |
 | [Sales & Profit Dashboard](04-sales-profit/) | Vendas e lucro por ano, país e segmento. |
-| [[Nome do quinto projeto]](05-projeto-5/) | [Descreva em uma frase o objetivo] |
 
 ## Competências
 Power Query · Modelagem de dados · DAX · Tabela calendário · Storytelling com dados
